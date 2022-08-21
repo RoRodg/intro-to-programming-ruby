@@ -16,10 +16,10 @@ age_integer = age + 30
 age_string = age_integer.to_s
 puts age_string + " years old."
 
-print "In forty years you will be "
 age_integer = age + 40
 age_string = age_integer.to_s
-puts age_string + " years old."
+puts "In forty years you will be #{age_string} years old."
+
 
 
 
